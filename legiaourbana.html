@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legiao Urbana</title>
+    <style>
+            *{ 
+    
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: antiquewhite;
+   
+}
+.navegador{
+    background-color: rgb(114, 47, 47);
+    padding: 30px;
+}
+.controle{
+   
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+}
+.navbar{
+    margin: auto;
+    border-radius:1rem ;
+   
+}
+.nav-links{
+    display: flex;
+    gap: 2rem;
+}
+.nav-link{
+    
+    list-style: none;
+    padding: 20px;
+}
+a{
+    text-decoration: none;
+    color: #ffff;
+}
+.imagem{
+    display: flex;
+    justify-content: center;
+}
+#quepais{
+    height: 25vh;
+    width: 40vh ;
+}
+.caixaTexto{
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+.texto{
+ 
+    height: 25vh;
+    width: 100vh;
+    font-size: 30px;
+
+}
+p{
+    text-align: justify;
+    text-indent: 40px;
+}
+.caixafoto{
+    padding: 40px;
+    display: flex;
+  
+    justify-content: space-around;
+    margin: 20px;
+    
+}
+#foto{
+    height: 300px;
+    width: 500px;
+}
+@media screen  and (max-width: 1272px){
+
+.caixafoto{
+  flex-wrap:wrap ;
+
+}
+}
+@media screen  and (max-width: 704px){
+
+.nav-links{
+    display: initial;
+}
+}
+@media screen  and (max-width: 593px){
+    .caixaTexto{
+        margin: auto;
+        height: 180vh;
+    }
+    #quepais{
+    height: 200px;
+    width: 400px ;
+}
+
+    #foto{
+    height: 200px;
+    width: 300px;
+}
+#audio{
+    width: 100%;
+}
+
+}
+    </style>
+</head>
+<body>
+    <div class ="navegador">
+        <h1 style="text-align: center;">O PAPEL DA MÚSICA POPULAR DURANTE A DITADURA MILITAR BRASILEIRA</h1>
+            <div class="controle">
+               <nav class="navbar">
+            
+                <ul class="nav-links">
+                    <li class="nav-link">
+                        <a href="index.html">Proposta</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="contextoHistorico.html">Contexto Histórico </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="cantores.html">Cantores</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="contato.html">Contato</a>
+                    </li>
+                </ul>
+               </nav>
+            </div>
+     </div>
+     <h1 style="text-align: center; font-size: 70px;">Legião Urbana</h1>
+     <div class="imagem">
+        <img id = "quepais" src="b9bb8087168f27b37f3b9744c6272327.jpg" alt="">
+     </div>
+     <div class="caixaTexto">
+     <div class="texto">
+        <p>A banda “Legião Urbana” viveu a fase final da ditadura 
+            militar brasileira e sofreu com censuras impostas pelos
+             governantes da época. Não foi por acaso que as críticas 
+             contra essa repressão estavam 
+            sempre presentes em suas canções. Renato Russo confirmou 
+            em entrevistas ser em si muito do que escrevia. “Que país
+             é esse”  é uma crítica a vivência e experiência vivida 
+             enquanto os militares estavam no poder, foi escrita em 
+             1978, e tocada inicialmente pela banda punk aborto eletrônico na qual ele liderava.</p><br>
+            <p> O repertório musical resistente a ditadura não se baseia 
+            apenas nas músicas famosas escritas e tocadas nos anos 1960 
+            e 1970, as músicas da legião, mesmo lançadas em sua maioria
+             depois desse período, ainda sim é uma importante forma de 
+             combate a ditadura na qual os membros eram totalmente oposição.</p>
+
+     </div>
+    </div>
+    <div class="caixafoto">
+        <div><img id="foto" src="mds.jpg" alt=""></div>
+        <div><iframe id="audio" style="border-radius:12px" src="https://open.spotify.com/embed/album/5dtcavvE7Hy2bmWb2XpiUe?utm_source=generator" width="150%" height="352" frameBorder="0" allowfullscreen="" 
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+            loading="lazy"></iframe></div>
+    </div>
+
+</body>
+</html>

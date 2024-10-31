@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caetano Veloso</title>
+    <style>
+            *{ 
+    
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: antiquewhite;
+   
+}
+.navegador{
+    background-color: rgb(114, 47, 47);
+    padding: 30px;
+}
+.controle{
+   
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+}
+.navbar{
+    margin: auto;
+    border-radius:1rem ;
+   
+}
+.nav-links{
+    display: flex;
+    gap: 2rem;
+}
+.nav-link{
+    
+    list-style: none;
+    padding: 20px;
+}
+a{
+    text-decoration: none;
+    color: #ffff;
+}
+.imagem{
+    display: flex;
+    justify-content: center;
+}
+#quepais{
+    height: 25vh;
+    width: 40vh ;
+}
+.caixaTexto{
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+.texto{
+ 
+    height: 25vh;
+    width: 100vh;
+    font-size: 30px;
+
+}
+p{
+    text-align: justify;
+    text-indent: 40px;
+}
+.caixafoto{
+    padding: 40px;
+    display: flex;
+  
+    justify-content: space-around;
+    margin: 20px;
+    
+}
+#foto{
+    height: 300px;
+    width: 500px;
+}
+@media screen  and (max-width: 1272px){
+
+.caixafoto{
+  flex-wrap:wrap ;
+
+}
+}
+@media screen  and (max-width: 704px){
+
+.nav-links{
+    display: initial;
+}
+}
+@media screen  and (max-width: 593px){
+    .caixaTexto{
+        margin: auto;
+        height: 180vh;
+    }
+    #quepais{
+    height: 200px;
+    width: 400px ;
+}
+
+    #foto{
+    height: 200px;
+    width: 300px;
+}
+#audio{
+    width: 100%;
+}
+
+}
+    </style>
+</head>
+<body>
+    <div class ="navegador">
+        <h1 style="text-align: center;">O PAPEL DA MÚSICA POPULAR DURANTE A DITADURA MILITAR BRASILEIRA</h1>
+            <div class="controle">
+               <nav class="navbar">
+            
+                <ul class="nav-links">
+                    <li class="nav-link">
+                        <a href="index.html">Proposta</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="contextoHistorico.html">Contexto Histórico </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="cantores.html">Cantores</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="contato.html">Contato</a>
+                    </li>
+                </ul>
+               </nav>
+            </div>
+     </div>
+     <h1 style="text-align: center; font-size: 70px;">Caetano Veloso</h1>
+     <div class="imagem">
+        <img id = "quepais" src="musicoa.jfif" alt="">
+     </div>
+     <div class="caixaTexto">
+     <div class="texto">
+        <p> Caetano foi uma figura de extrema importância durante a Ditadura Militar no 
+            Brasil. Caetano e Gilberto Gil foram presos durante o período por conta da 
+            música “é proibido proibir” que provocou reações acaloradas e hostis durante
+             suas performances no festival internacional de canção, com isso, só foram 
+             liberados com a condição de que deixassem o Brasil. Assim, sendo exilados para Londres
+              em 1969. Caetano voltou para o Brasil no término de seu exilo em 1972, quando o regime ainda estava em vigor e a censura e controle do regime sobre a cultura ainda eram grandes. Muitas de suas composições continuaram a ser censuradas. A atuação de Caetano durante a repressão teve e tem um impacto duradouro, usando a arte como porta voz para a resistência contra o uso 
+            do poder militar para calar a população, suas músicas são o puro símbolo de
+             luta pela liberdade de expressão.</p>
+
+     </div>
+    </div>
+    <div class="caixafoto">
+        <div><img id="foto" src="cabelo.jpeg" alt=""></div>
+        <div><iframe id="audio" style="border-radius:12px" src="https://open.spotify.com/embed/album/2xl8IQKN9XCMoRl7xh30JI?utm_source=generator" 
+            width="150%" height="352" frameBorder="0" allowfullscreen="" 
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>
+    </div>
+
+</body>
+</html>

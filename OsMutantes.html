@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Os Mutantes</title>
+    <style>
+            *{ 
+    
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: antiquewhite;
+   
+}
+.navegador{
+    background-color: rgb(114, 47, 47);
+    padding: 30px;
+}
+.controle{
+   
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+}
+.navbar{
+    margin: auto;
+    border-radius:1rem ;
+   
+}
+.nav-links{
+    display: flex;
+    gap: 2rem;
+}
+.nav-link{
+    
+    list-style: none;
+    padding: 20px;
+}
+a{
+    text-decoration: none;
+    color: #ffff;
+}
+.imagem{
+    display: flex;
+    justify-content: center;
+}
+#quepais{
+    height: 25vh;
+    width: 40vh ;
+}
+.caixaTexto{
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+.texto{
+ 
+    height: 25vh;
+    width: 100vh;
+    font-size: 30px;
+
+}
+p{
+    text-align: justify;
+    text-indent: 40px;
+}
+.caixafoto{
+    padding: 40px;
+    display: flex;
+  
+    justify-content: space-around;
+    margin: 20px;
+    
+}
+#foto{
+    height: 300px;
+    width: 500px;
+}
+@media screen  and (max-width: 1272px){
+
+.caixafoto{
+  flex-wrap:wrap ;
+
+}
+}
+@media screen  and (max-width: 704px){
+
+.nav-links{
+    display: initial;
+}
+}
+@media screen  and (max-width: 593px){
+    .caixaTexto{
+        margin: auto;
+        height: 180vh;
+    }
+    #quepais{
+    height: 200px;
+    width: 400px ;
+}
+
+    #foto{
+    height: 200px;
+    width: 300px;
+}
+#audio{
+    width: 100%;
+}
+
+}
+    </style>
+</head>
+<body>
+    <div class ="navegador">
+        <h1 style="text-align: center;">O PAPEL DA MÚSICA POPULAR DURANTE A DITADURA MILITAR BRASILEIRA</h1>
+            <div class="controle">
+               <nav class="navbar">
+            
+                <ul class="nav-links">
+                    <li class="nav-link">
+                        <a href="index.html">Proposta</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="contextoHistorico.html">Contexto Histórico </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="cantores.html">Cantores</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="contato.html">Contato</a>
+                    </li>
+                </ul>
+               </nav>
+            </div>
+     </div>
+     <h1 style="text-align: center; font-size: 70px;">Os Mutantes</h1>
+     <div class="imagem">
+        <img id = "quepais" src="osmutantes.jpg" alt="">
+     </div>
+     <div class="caixaTexto">
+     <div class="texto">
+        <p> Os Mutantes foi um grupo musical formado pela Rita Lee Jones 
+            e pelos irmãos Dias Baptistas, Sérgio e Arnaldo, anteriormente,
+             era composto por mais integrantes, sendo chamado de “O’Seis”. 
+             Participaram de diversos protestos através de apresentações
+              musicais, como no ano de 1967, ao lado de Gilberto Gil no 
+              palco do Festival da Record, tocaram "Domingo no Parque" e no ano 
+              seguinte, juntamente com Caetano Veloso, performaram "É Proibido Proibir. O trio era famoso pelo som inspirado no rock psicodélico norte-americano, além de sua estética que trazia um estilo completamente criativo para os cantores, com isso, exploravam as mais diversas formas de se expressar e, a partir de
+             fusões de diferentes gêneros musicais, ganhavam visibilidade pelo envolvimento com a Tropicália.</p>
+
+     </div>
+    </div>
+    <div class="caixafoto">
+        <div><img id="foto" src="papa.jfif" alt=""></div>
+        <div><iframe id="audio" style="border-radius:12px" 
+            src="https://open.spotify.com/embed/artist/5C0gCCG8N5Dh5dZytIgzLX?utm_source=generator&theme=0" width="150%" height="352" frameBorder="0" allowfullscreen="" 
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>
+    </div>
+
+</body>
+</html>

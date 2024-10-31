@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gilberto Gil</title>
+    <style>
+            *{ 
+    
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: antiquewhite;
+   
+}
+.navegador{
+    background-color: rgb(114, 47, 47);
+    padding: 30px;
+}
+.controle{
+   
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+}
+.navbar{
+    margin: auto;
+    border-radius:1rem ;
+   
+}
+.nav-links{
+    display: flex;
+    gap: 2rem;
+}
+.nav-link{
+    
+    list-style: none;
+    padding: 20px;
+}
+a{
+    text-decoration: none;
+    color: #ffff;
+}
+.imagem{
+    display: flex;
+    justify-content: center;
+}
+#quepais{
+    height: 25vh;
+    width: 40vh ;
+}
+.caixaTexto{
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+.texto{
+ 
+    height: 25vh;
+    width: 100vh;
+    font-size: 30px;
+
+}
+p{
+    text-align: justify;
+    text-indent: 40px;
+}
+.caixafoto{
+    padding: 40px;
+    display: flex;
+  
+    justify-content: space-around;
+    margin: 20px;
+    
+}
+#foto{
+    height: 300px;
+    width: 500px;
+}
+@media screen  and (max-width: 1272px){
+
+.caixafoto{
+  flex-wrap:wrap ;
+
+}
+}
+@media screen  and (max-width: 704px){
+
+.nav-links{
+    display: initial;
+}
+}
+@media screen  and (max-width: 593px){
+    .caixaTexto{
+        margin: auto;
+        height: 180vh;
+    }
+    #quepais{
+    height: 200px;
+    width: 400px ;
+}
+
+    #foto{
+    height: 200px;
+    width: 300px;
+}
+#audio{
+    width: 100%;
+}
+
+}
+    </style>
+</head>
+<body>
+    <div class ="navegador">
+        <h1 style="text-align: center;">O PAPEL DA MÚSICA POPULAR DURANTE A DITADURA MILITAR BRASILEIRA</h1>
+            <div class="controle">
+               <nav class="navbar">
+            
+                <ul class="nav-links">
+                    <li class="nav-link">
+                        <a href="index.html">Proposta</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="contextoHistorico.html">Contexto Histórico </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="cantores.html">Cantores</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="contato.html">Contato</a>
+                    </li>
+                </ul>
+               </nav>
+            </div>
+     </div>
+     <h1 style="text-align: center; font-size: 70px;">Gilberto Gil</h1>
+     <div class="imagem">
+        <img id = "quepais" src="ggg.jpg" alt="">
+     </div>
+     <div class="caixaTexto">
+     <div class="texto">
+        <p>Gilberto Passos Gil Moreira nasceu em 
+            salvador no ano de 1942 e desde a infância
+             já manifestava seu anseio pela música. Em 1960 
+             concluiu o ensino médio e com 18 anos de idade Gilberto 
+             formou com seus amigos o conjunto denominado de "Os desafinados" 
+             que mais para frente se desfez. Durante a ditadura foi acusado de
+              "incitar a juventude à rebeldia" e por tal motivo ficou preso por 
+              alguns meses e logo após ser solto foi exilado em Londres em 1969. 
+              Sua última música antes do exílio foi "Cálice" de Chico Buarque. 
+              Gilberto Gil recebeu inúmeros prêmios por suas músicas e é Ex-ministro
+               da Cultura do Brasil e é considerado o "melhor ministro da Cultura" 
+               da história do Brasil, sua atuação 
+            foi entre 2003-2008 durante os mandatos do Presidente Luiz Inácio
+             Lula da Silva.</p>
+
+     </div>
+    </div>
+    <div class="caixafoto">
+        <div><img id="foto" src="gilbeto.jfif" alt=""></div>
+        <div><iframe id="audio" style="border-radius:12px" 
+            src="https://open.spotify.com/embed/album/53eqd316Rs3te41yGRovYz?utm_source=generator"
+             width="150%" height="352" frameBorder="0" allowfullscreen="" 
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+            loading="lazy"></iframe></div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cantores</title>
+    <style>
+    *{ 
+    
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: antiquewhite;
+   
+}
+.navegador{
+    background-color: rgb(114, 47, 47);
+    padding: 30px;
+}
+.controle{
+   
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+}
+.navbar{
+    margin: auto;
+    border-radius:1rem ;
+   
+}
+.nav-links{
+    display: flex;
+    gap: 2rem;
+}
+.nav-link{
+    
+    list-style: none;
+    padding: 20px;
+}
+a{
+    text-decoration: none;
+    color: #ffff;
+}
+.conteudo{
+    background-color: antiquewhite;
+    height: 40vh;
+}
+.container{
+    
+    height: 30vh;
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+    padding: 5px;
+}
+#imagem{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+p{
+    text-align: justify;
+    text-indent: 40px;
+}
+@media screen  and (max-width: 1628px){
+   .conteudo{
+    background-color: antiquewhite;
+    height: 60vh;
+   }
+}
+@media screen  and (max-width: 1015px){
+    .container{
+    height: 50vh;
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+    flex-wrap:wrap ;
+    padding: 5px;
+    }
+}@media screen  and (max-width: 736px){
+  
+    .nav-links{
+        display: initial;
+        gap: 2rem;
+}
+    
+    .conteudo{
+    background-color: antiquewhite;
+    height: 80vh;
+   }
+}@media screen  and (max-width: 400px){
+  
+  .nav-links{
+      display: initial;
+      gap: 2rem;
+}
+  
+  .conteudo{
+  background-color: antiquewhite;
+  height: 180vh;
+  margin: auto;
+ }
+}
+
+    </style>
+</head>
+<body>
+    <div class ="navegador">
+        <h1 style="text-align: center;">O PAPEL DA MÚSICA POPULAR DURANTE A DITADURA MILITAR BRASILEIRA</h1>
+            <div class="controle">
+               <nav class="navbar">
+            
+                <ul class="nav-links">
+                    <li class="nav-link">
+                        <a href="index.html">Proposta</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="contextoHistorico.html">Contexto Histórico </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="cantores.html">Cantores</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="contato.html">Contato</a>
+                    </li>
+                </ul>
+               </nav>
+            </div>
+     </div>
+     <div class="conteudo">
+        <h1 style="text-align: center;">Cantores</h1><br><br>
+        <p style="margin: 40px;font-size: 25px;">Os cantores tiveram um papel
+             fundamental durante a ditadura militar no Brasil, 
+             atuando como vozes de resistência e crítica ao regime. Eles usaram suas
+              músicas para abordar temas políticos e sociais, denunciando a repressão
+               e defendendo a liberdade. A censura os forçou a serem criativos, 
+               utilizando metáforas e 
+            ironias em suas letras, o que enriqueceu a cultura 
+            musical.</p>
+           <p style="margin: 40px;font-size: 25px;"> Suas canções se tornaram hinos de protesto, unindo 
+            as pessoas em manifestações e promovendo a identidade 
+            cultural brasileira. O legado musical desse período ainda
+             influencia artistas e movimentos sociais hoje, ressaltando 
+             a importância da liberdade de expressão e da resistência 
+             cultural. Assim, os cantores não apenas entretiveram, mas
+              também educaram e inspiraram a população na luta por mudanças sociais e políticas.</p>
+
+     </div>
+        <div class="container">
+            <div><a href="chicoBuarque.html"><img id = "imagem" src="transferir.jfif" alt="Chico Buarque"></a></div>
+            <div><a href="legiaourbana.html"><img id = "imagem" src="images.jfif" alt="Legião Urbana"></a></div>
+            <div><a href="GilbertoGil.html"><img id = "imagem" src="fotosa.jfif" alt="Gilberto Gil"></a></div>
+            <div><a href="OsMutantes.html"><img id = "imagem" src="Os_Mutantes_(restored).jpg" alt="Os Mutantes"></a></div>
+            <div><a href="CaetanoVeloso.html"><img id = "imagem" src="eita.jfif" alt="Caetano Veloso"></a></div>
+
+
+        </div>
+</body>
+</html>
